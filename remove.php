@@ -1,7 +1,9 @@
 <?php
+
+    include 'dbconnect.php';
     $id = $_GET['id'];
     
-    $con = mysqli_connect("localhost","bob","bob","filme");
+    //$con = mysqli_connect("localhost","bob","bob","filme");
     
     $delete = "delete from filmes where codigo = ?";
     $stmt = mysqli_prepare($con, $delete);

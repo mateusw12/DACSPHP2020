@@ -62,12 +62,13 @@ body{
   </nav>
 
   <?php
+     include 'dbconnect.php';
       $id=0;
       $nome="";
       $genero="";
       $estudio="";
       
-      $con = mysqli_connect("localhost","bob","bob","filme");
+      //$con = mysqli_connect("localhost","bob","bob","filme");
       
       if(isset($_GET['id'])){
           

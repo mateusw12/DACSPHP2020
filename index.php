@@ -65,7 +65,8 @@ body{
   <div class="container" >
 
     <?php
-        $con = mysqli_connect("localhost","bob","bob","filme");
+       
+       include 'dbconnect.php';
         $sql = "select * from filmes";
         $result = mysqli_query($con,$sql);
     ?>

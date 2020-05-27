@@ -1,15 +1,17 @@
 <?php
+   include 'dbconnect.php';
     $id       = $_POST['txtId'];
     $nome     = $_POST['txtNome'];
     $estudio  = $_POST['txtEstudio'];
     $genero   = $_POST['txtGenero'];
     
-    var_dump($id);
+    /*var_dump($id);
     var_dump($nome);
     var_dump($estudio);
-    var_dump($genero);
+    var_dump($genero);*/
+    
      
-    $con = mysqli_connect("localhost","bob","bob","filme");
+    //$con = mysqli_connect("localhost","bob","bob","filme");
     
     if($id == "0"){
      
