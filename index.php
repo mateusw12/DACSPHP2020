@@ -66,7 +66,7 @@ body{
 
     <?php
        
-       include 'dbconnect.php';
+        include 'dbconnect.php';
         $sql = "select * from filmes";
         $result = mysqli_query($con,$sql);
     ?>

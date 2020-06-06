@@ -83,8 +83,7 @@ body{
           $nome = $row['nome'];
           $genero = $row['genero'];
           $estudio = $row['estudio'];
-          
-     
+
       }
       
   ?>
